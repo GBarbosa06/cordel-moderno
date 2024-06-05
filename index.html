@@ -13,15 +13,44 @@
         }
         header {
             background-color: black;
-            height: 250px;
             text-align: center;
+            padding-top: 50px;
         }
-        header h1, a, footer p{
+        header h1{
+            font-variant: small-caps;
+        }
+                header p{
+            padding-bottom: 30px;
+        }
+        header, a, footer{
             color: white;
+            text-decoration: none;
         }
-        p{
-            margin: 30px 10px;
+        a{
+            font-weight: 900;
         }
+        a:hover{
+            text-decoration: underline;
+        }
+        section{
+            padding: 10vh 30px;
+            line-height: 2em;
+        }
+        .image p{
+            background-color: rgba(0, 0, 0, 0.24);
+            color: white;
+            display: inline-block;
+            padding: 30px;
+            
+        }
+
+        .normal{
+
+        }
+        .image{
+            background-color: rgb(73, 73, 73);
+        }
+
 
 
 
@@ -39,7 +68,7 @@
     </header>
 
     <main>
-        <section>
+        <section  class="normal">
             <p>
                 Estou ficando cansado <br>
                 Da tal tecnologia <br>
@@ -52,7 +81,7 @@
         </section>
 
 
-        <section>
+        <section class="image">
             <p>
                 Não é mais como era antes <br>
                 É tudo abreviado <br>
@@ -65,7 +94,7 @@
         </section>
 
 
-        <section>
+        <section class="normal">
             <p>
                 Arroba agora não pesa <br>
                 É parte de um endereço <br>
@@ -87,7 +116,7 @@
         </section>
 
 
-        <section>
+        <section class="image">
             <p>
                 Tenho saudade das cartas <br>
                 Escritas com a própria mão <br>
@@ -100,7 +129,7 @@
         </section>
 
 
-        <section>
+        <section class="normal">
             
                 <p>
                     Agora, escrevo e envio <br>
